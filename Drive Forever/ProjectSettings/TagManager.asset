@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - mainCar
   layers:
   - Default
   - TransparentFX
@@ -40,4 +41,16 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bacground
+    uniqueID: 2391769405
+    locked: 0
+  - name: Way
+    uniqueID: 181295661
+    locked: 0
+  - name: mainCar
+    uniqueID: 1218977463
+    locked: 0
+  - name: Vinyet
+    uniqueID: 3608773521
     locked: 0
