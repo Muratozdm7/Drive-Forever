@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &741801855601279327
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 741801855601279321}
+  - component: {fileID: 741801855601279320}
+  - component: {fileID: 741801855601279322}
+  - component: {fileID: 741801855601279323}
+  - component: {fileID: 741801855601279316}
+  m_Layer: 0
+  m_Name: NpcCar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &741801855601279321
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741801855601279327}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.48, y: -0.207, z: 0}
+  m_LocalScale: {x: 0.85, y: 0.85, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &741801855601279320
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741801855601279327}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1949704069
+  m_SortingLayer: 3
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 171149195, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.99, y: 1.73}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!70 &741801855601279322
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741801855601279327}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0022111337, y: 0}
+  m_Size: {x: 0.7379421, y: 1.73}
+  m_Direction: 0
+--- !u!50 &741801855601279323
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741801855601279327}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &741801855601279316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741801855601279327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b9a377148e68a43aa9eb748bcda0a3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carSprite: 0
+  car1: {fileID: 171149195, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car2: {fileID: 87638493, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car3: {fileID: 2050773837, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car4: {fileID: 653926112, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car5: {fileID: 1603997166, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car6: {fileID: 342169001, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car7: {fileID: 891167569, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car8: {fileID: 517882082, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car9: {fileID: 1591136828, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car10: {fileID: 209956835, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car11: {fileID: -1894757894, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car12: {fileID: 1377590459, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car13: {fileID: -1211184288, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car14: {fileID: 1645133833, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car15: {fileID: -894911374, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car16: {fileID: -1143684723, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car17: {fileID: -864949157, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}
+  car18: {fileID: -191336434, guid: b3981aa51edfcd64ca64d9c040ae9eeb, type: 3}

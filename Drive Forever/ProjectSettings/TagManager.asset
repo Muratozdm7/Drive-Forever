@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - mainCar
+  - Sollama
   layers:
   - Default
   - TransparentFX
@@ -48,9 +49,15 @@ TagManager:
   - name: Way
     uniqueID: 181295661
     locked: 0
+  - name: CarButNpc
+    uniqueID: 2345263227
+    locked: 0
   - name: mainCar
     uniqueID: 1218977463
     locked: 0
   - name: Vinyet
     uniqueID: 3608773521
+    locked: 0
+  - name: Canvas
+    uniqueID: 2358370343
     locked: 0
